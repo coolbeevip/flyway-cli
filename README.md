@@ -21,6 +21,7 @@ ALTER TABLE test_table ADD COLUMN age INT;
 ```shell
 java -jar flyway-cli-1.0.0.jar \
 -jdbc_url jdbc:postgresql://127.0.0.1:5432/test_db \
+-table test_schema_version \
 -username hello \
 -password 'hello' \
 -location /schema/postgresql
