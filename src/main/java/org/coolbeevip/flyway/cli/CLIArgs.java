@@ -1,4 +1,4 @@
-package org.coolbeevip.flyway.cli.application;
+package org.coolbeevip.flyway.cli;
 
 
 import com.beust.jcommander.Parameter;
