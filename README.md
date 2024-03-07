@@ -1,5 +1,6 @@
+# Flyway CLI
 
-在 `/schema/postgresql` 目录下创建数据脚本
+在 `schema/postgresql` 目录下创建数据脚本
 
 V1.0.0__init.sql
 
@@ -24,5 +25,5 @@ java -jar flyway-cli-1.0.0.jar \
 -table test_schema_version \
 -username hello \
 -password 'hello' \
--location /schema/postgresql
+-location schema/postgresql
 ```
