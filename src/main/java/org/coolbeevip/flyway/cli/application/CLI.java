@@ -4,13 +4,11 @@ import com.beust.jcommander.JCommander;
 import org.flywaydb.core.Flyway;
 
 /*
-flyway-cli \
+java -jar flyway-cli-1.0.0.jar \
 -jdbc_url jdbc:postgresql://10.19.83.184:5432/an_copilot_knowledge \
 -username an_copilot_knowledge \
--password copilot#@!123 \
+-password 'copilot#@!123' \
 -location /Users/zhanglei/Work/github/flyway-cli/schema/postgresql
-
-
 */
 public class CLI {
     public static void main(String[] args) {
