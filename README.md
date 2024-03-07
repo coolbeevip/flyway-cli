@@ -1,7 +1,7 @@
 
 在 `/schema/postgresql` 目录下创建数据脚本
 
-V1.0.0.0__init.sql
+V1.0.0__init.sql
 
 ```sql
 CREATE TABLE test_table (
@@ -10,7 +10,7 @@ CREATE TABLE test_table (
 );
 ```
 
-V1.0.0.1__add_column.sql
+V1.0.1__add_column.sql
 
 ```sql
 ALTER TABLE test_table ADD COLUMN age INT;

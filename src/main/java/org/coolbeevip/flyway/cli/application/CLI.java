@@ -20,7 +20,7 @@ public class CLI {
                 .baselineOnMigrate(true)
                 .group(true)
                 .cleanDisabled(true)
-                .baselineVersion("0.0.0.0")
+                .baselineVersion("0.0.0")
                 .locations("filesystem:"+cliArgs.location)
                 .dataSource(cliArgs.url, cliArgs.username, cliArgs.password).load();
         flyway.migrate();
