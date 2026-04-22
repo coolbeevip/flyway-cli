@@ -1,0 +1,10 @@
+.git
+.github
+.idea
+target
+dependency-reduced-pom.xml
+README.md
+.DS_Store
+src/.DS_Store
+src/main/.DS_Store
+src/test/.DS_Store
