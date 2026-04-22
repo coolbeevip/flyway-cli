@@ -11,7 +11,7 @@ COPY src src
 RUN --mount=type=cache,target=/root/.m2/repository \
     mvn -B -DskipTests package
 
-FROM eclipse-temurin:21-jre
+FROM eclipse-temurin:21-jre-alpine-3.23
 
 WORKDIR /app
 
