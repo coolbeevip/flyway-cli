@@ -76,7 +76,7 @@ java -jar target/flyway-cli-1.1.0.jar \
 docker run --rm \
   -e FLYWAY_DB_PASSWORD=hello \
   -v "/data/migrations/postgresql:/work/schema:ro" \
-  <dockerhub-username>/flyway-cli:latest \
+  coolbeevip/flyway-cli:latest \
   -jdbc_url jdbc:postgresql://host.docker.internal:5432/test_db \
   -table test_schema_version \
   -username hello \
